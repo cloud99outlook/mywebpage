@@ -31,7 +31,8 @@ public class homepage {
 		// 1. ask user for a file name (or file path)
 		
 		System.out.println("Enter file name or path");
-		filenameIn = scanner.nextLine();
+		//filenameIn = scanner.nextLine();
+		filenameIn = "HelloWorld";
 		
 		// 2. check if file exists
 		
