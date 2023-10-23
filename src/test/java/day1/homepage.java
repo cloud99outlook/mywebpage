@@ -92,6 +92,17 @@ public class homepage {
 		catch(FileNotFoundException e) {
 			System.out.println("File not found");
 		}
+
+		if(filenameIn=="HelloWorld")
+		{
+			Assert.assertTrue(true);
+			System.out.println("Passed---HTML page Created");
+		}
+		else
+		{
+			Assert.assertTrue(false);
+			System.out.println("Failed---HTML page NOT Created");
+		}
 		
 	}
 }
