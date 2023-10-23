@@ -4,7 +4,7 @@
 <suite name="devwebpage"> 
 	<test name="webpage">		
 		<classes>			 
-			 <class name="homepage.main" /> 
+			 <class name="day1.homepage" /> 
 		</classes>
 	</test>		
 </suite>
