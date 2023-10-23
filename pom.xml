@@ -6,9 +6,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dev</groupId>
 	<artifactId>web</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2</version>
 
-<properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- <maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target> -->
@@ -19,16 +19,16 @@
 		<pluginManagement>
 			<plugins>
 
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-<configuration>
- <source>1.6</source>
-<target>1.6</target>
-</configuration>   
-</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+				</plugin>
 
-				
+
 				<!-- Added SureFirePlugin to dev Build-->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -50,7 +50,6 @@
 						<target>1.8</target>
 					</configuration>
 				</plugin>
-
 
 
 			</plugins>
