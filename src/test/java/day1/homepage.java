@@ -3,6 +3,7 @@ package day1;
 import java.io.*;
 import java.util.*;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -31,8 +32,9 @@ public class homepage {
 		// 1. ask user for a file name (or file path)
 		
 		System.out.println("Enter file name or path");
-		//filenameIn = scanner.nextLine();
 		filenameIn = "HelloWorld";
+		
+		//filenameIn = scanner.nextLine();
 		
 		// 2. check if file exists
 		
@@ -92,7 +94,7 @@ public class homepage {
 		catch(FileNotFoundException e) {
 			System.out.println("File not found");
 		}
-
+		
 		if(filenameIn=="HelloWorld")
 		{
 			Assert.assertTrue(true);
